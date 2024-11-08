@@ -14,8 +14,8 @@ export const authOptions = {
       clientSecret: process.env.NEXT_PUBLIC_GITHUB_PW,
     }),
     GoogleProvider({
-      clientId: '456650788979-o4t9uk5m23ds7ghhfq9h564svfke4l09.apps.googleusercontent.com',
-      clientSecret: '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',
+      clientId: process.env.NEXT_PUBLIC_GOOGLE_ID,
+      clientSecret: process.env.NEXT_PUBLIC_GOOGLE_PW,
     }),
     NaverProvider({
       clientId: 'process.env.NAVER_CLIENT_ID',
